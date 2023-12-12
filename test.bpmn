@@ -10,7 +10,7 @@
       <bpmn:outgoing>Flow_1run1t3</bpmn:outgoing>
       <bpmn:script>console.log("Hello World.");</bpmn:script>
     </bpmn:scriptTask>
-    <bpmn:endEvent id="Event_0xhb7o2">
+    <bpmn:endEvent id="Event_0xhb7o2" name="end">
       <bpmn:incoming>Flow_1run1t3</bpmn:incoming>
     </bpmn:endEvent>
     <bpmn:sequenceFlow id="Flow_1run1t3" sourceRef="Activity_0ihq4rp" targetRef="Event_0xhb7o2" />
@@ -26,6 +26,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0xhb7o2_di" bpmnElement="Event_0xhb7o2">
         <dc:Bounds x="432" y="99" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="441" y="142" width="19" height="14" />
+        </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_03q5vfg_di" bpmnElement="Flow_03q5vfg">
         <di:waypoint x="215" y="117" />
